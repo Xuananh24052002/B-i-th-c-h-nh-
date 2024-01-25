@@ -1,12 +1,31 @@
 /*Lê Xuân Ánh 2021050096*/
-.p1 {
-  font-family: "Times New Roman", Times, serif;
-}
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
 
-.p2 {
-  font-family: Arial, Helvetica, sans-serif;
-}
+<i class="fas fa-cloud"></i>
+<i class="fas fa-heart"></i>
+<i class="fas fa-car"></i>
+<i class="fas fa-file"></i>
+<i class="fas fa-bars"></i>
 
-.p3 {
-  font-family: "Lucida Console", "Courier New", monospace;
-}
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+
+<i class="material-icons">cloud</i>
+<i class="material-icons">favorite</i>
+<i class="material-icons">attachment</i>
+<i class="material-icons">computer</i>
+<i class="material-icons">traffic</i>
+
+</body>
+</html>
