@@ -1,71 +1,52 @@
 /*Lê Xuân Ánh 2021050096*/
-<html>
-<head>
-  <style>
-    p {color: red;}
-  </style>
-</head>
-<body>
+Example
+#myid {
+  background-color: blue;
+}
 
-<p>Hello World!</p>
+.myclass {
+  background-color: gray;
+}
 
-</body>
-</html>
-<html>
-<head>
-  <style>
-    .test {color: green;}
-    p {color: red;}
-  </style>
-</head>
-<body>
+p {
+  background-color: red !important;
+}
+myid {
+  background-color: blue !important;
+}
 
-<p class="test">Hello World!</p>
+.myclass {
+  background-color: gray !important;
+}
 
-</body>
-</html>
-<html>
-<head>
-  <style>
-    #demo {color: blue;}
-    .test {color: green;}
-    p {color: red;}
-  </style>
-</head>
-<body>
+p {
+  background-color: red !important;
+}
+.button {
+  background-color: #8c8c8c;
+  color: white;
+  padding: 5px;
+  border: 1px solid black;
+}
+.button {
+  background-color: #8c8c8c;
+  color: white;
+  padding: 5px;
+  border: 1px solid black;
+}
 
-<p id="demo" class="test">Hello World!</p>
+#myDiv a {
+  color: red;
+  background-color: yellow;
+}
+.button {
+  background-color: #8c8c8c !important;
+  color: white !important;
+  padding: 5px !important;
+  border: 1px solid black !important;
+}
 
-</body>
-</html>
-<html>
-<head>
-  <style>
-    #demo {color: blue;}
-    .test {color: green;}
-    p {color: red;}
-  </style>
-</head>
-<body>
-
-<p id="demo" class="test" style="color: pink;">Hello World!</p>
-
-</body>
-</html>
-A: h1
-B: h1#content
-C: <h1 id="content" style="color: pink;">Heading</h1>
-h1 {background-color: yellow;}
-h1 {background-color: r
-  div#a {background-color: green;}
-#a {background-color: yellow;}
-div[id=a] {background-color: blue;}
-/*From external CSS file:*/
-#content h1 {background-color: red;}
-
-/*In HTML file:*/
-<style>
-#content h1 {background-color: yellow;}
-</style>
-.intro {background-color: yellow;}
-h1 {background-color: red;}
+#myDiv a {
+  color: red;
+  background-color: yellow;
+}
