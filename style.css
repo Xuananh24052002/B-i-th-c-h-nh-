@@ -1,22 +1,12 @@
 /*Lê Xuân Ánh 2021050096*/
-body {
-  color: blue;
+.p1 {
+  font-family: "Times New Roman", Times, serif;
 }
 
-h1 {
-  color: green;
-}
-body {
-  background-color: lightgrey;
-  color: blue;
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-  background-color: black;
-  color: white;
-}
-
-div {
-  background-color: blue;
-  color: white;
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
 }
