@@ -1,36 +1,52 @@
 /*Lê Xuân Ánh 2021050096*/
-p::first-line {
-  color: #ff0000;
-  font-variant: small-caps;
+img {
+  opacity: 0.5;
 }
-p::first-letter {
-  color: #ff0000;
-  font-size: xx-large;
-}
-p.intro::first-letter {
-  color: #ff0000;
-  font-size: 200%;
-}
-p::first-letter {
-  color: #ff0000;
-  font-size: xx-large;
+img {
+  opacity: 0.5;
 }
 
-p::first-line {
-  color: #0000ff;
-  font-variant: small-caps;
+img:hover {
+  opacity: 1.0;
 }
-h1::before {
-  content: url(smiley.gif);
+img:hover {
+  opacity: 0.5;
 }
-h1::after {
-  content: url(smiley.gif);
+div {
+  opacity: 0.3;
 }
-::marker {
-  color: red;
-  font-size: 23px;
+div {
+  background: rgba(76, 175, 80, 0.3) /* Green background with 30% opacity */
 }
-::selection {
-  color: red;
-  background: yellow;
+<html>
+<head>
+<style>
+div.background {
+  background: url(klematis.jpg) repeat;
+  border: 2px solid black;
 }
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+</style>
+</head>
+<body>
+
+<div class="background">
+  <div class="transbox">
+    <p>This is some text that is placed in the transparent box.</p>
+  </div>
+</div>
+
+</body>
+</html>
