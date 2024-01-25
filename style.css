@@ -1,13 +1,11 @@
 /*Lê Xuân Ánh 2021050096*/
-table, th, td {
-  border: 1px solid;
-}
 table {
   width: 100%;
 }
-table {
-  border-collapse: collapse;
+
+th {
+  height: 70px;
 }
 table {
-  border: 1px solid;
+  width: 50%;
 }
