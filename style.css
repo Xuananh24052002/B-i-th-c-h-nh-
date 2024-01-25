@@ -1,11 +1,16 @@
 /*Lê Xuân Ánh 2021050096*/
-table {
-  width: 100%;
+li {
+  display: inline;
 }
-
-th {
-  height: 70px;
+span {
+  display: block;
 }
-table {
-  width: 50%;
+a {
+  display: block;
+}
+h1.hidden {
+  display: none;
+}
+h1.hidden {
+  visibility: hidden;
 }
