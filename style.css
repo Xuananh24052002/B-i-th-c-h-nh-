@@ -1,26 +1,40 @@
 /*Lê Xuân Ánh 2021050096*/
-img {
-  float: right;
-}
-img {
-  float: left;
-}
-img {
-  float: none;
-}
-div {
-  float: left;
-  padding: 15px;
+span.a {
+  display: inline; /* the default for span */
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: yellow;
 }
 
-.div1 {
-  background: red;
+span.b {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: yellow;
 }
 
-.div2 {
-  background: yellow;
+span.c {
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: yellow;
+}
+.nav {
+  background-color: yellow;
+  list-style-type: none;
+  text-align: center; 
+  padding: 0;
+  margin: 0;
 }
 
-.div3 {
-  background: green;
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
 }
