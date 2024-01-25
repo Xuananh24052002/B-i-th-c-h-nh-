@@ -1,53 +1,13 @@
 /*Lê Xuân Ánh 2021050096*/
-ul.a {
-  list-style-type: circle;
+table, th, td {
+  border: 1px solid;
 }
-
-ul.b {
-  list-style-type: square;
+table {
+  width: 100%;
 }
-
-ol.c {
-  list-style-type: upper-roman;
+table {
+  border-collapse: collapse;
 }
-
-ol.d {
-  list-style-type: lower-alpha;
-}
-ul.a {
-  list-style-position: outside;
-}
-
-ul.b {
-  list-style-position: inside;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-ul {
-  list-style: square inside url("sqpurple.gif");
-}
-ol {
-  background: #ff9999;
-  padding: 20px;
-}
-
-ul {
-  background: #3399ff;
-  padding: 20px;
-}
-
-ol li {
-  background: #ffe5e5;
-  color: darkred;
-  padding: 5px;
-  margin-left: 35px;
-}
-
-ul li {
-  background: #cce5ff;
-  color: darkblue;
-  margin: 5px;
+table {
+  border: 1px solid;
 }
