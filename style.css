@@ -1,5 +1,9 @@
 /*Lê Xuân Ánh 2021050096*/
-p {
-  color: red;
-  text-align: center;
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
 }
