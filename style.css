@@ -1,59 +1,40 @@
 /*Lê Xuân Ánh 2021050096*/
-<html>
-<head>
-<style>
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
+#home {
+  width: 46px;
+  height: 44px;
+  background: url(img_navsprites.gif) 0 0;
+}
+#navlist {
+  position: relative;
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
+#navlist li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
 }
 
-div.gallery img {
-  width: 100%;
-  height: auto;
+#navlist li, #navlist a {
+  height: 44px;
+  display: block;
 }
 
-div.desc {
-  padding: 15px;
-  text-align: center;
+#home {
+  left: 0px;
+  width: 46px;
+  background: url('img_navsprites.gif') 0 0;
 }
-</style>
-</head>
-<body>
 
-<div class="gallery">
-  <a target="_blank" href="img_5terre.jpg">
-    <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
+#prev {
+  left: 63px;
+  width: 43px;
+  background: url('img_navsprites.gif') -47px 0;
+}
 
-<div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
-    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
-    <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
-    <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-</body>
-</html
-
+#next {
+  left: 129px;
+  width: 43px;
+  background: url('img_navsprites.gif') -91px 0;
+}
