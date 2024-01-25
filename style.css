@@ -1,96 +1,20 @@
 /*Lê Xuân Ánh 2021050096*/
-img {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
+div {
+  width: 200px;
+  height: 65px;
+  background-color: coral;
+  overflow: visible;
 }
-<html>
-<head>
-<style>
-.container {
-  position: relative;
+div {
+  overflow: hidden;
 }
-
-.black-box {
-  position: relative;
-  z-index: 1;
-  border: 2px solid black;
-  height: 100px;
-  margin: 30px;
+div {
+  overflow: scroll;
 }
-
-.gray-box {
-  position: absolute;
-  z-index: 3;
-  background: lightgray;
-  height: 60px;
-  width: 70%;
-  left: 50px;
-  top: 50px;
+div {
+  overflow: auto;
 }
-
-.green-box {
-  position: absolute;
-  z-index: 2;
-  background: lightgreen;
-  width: 35%;
-  left: 270px;
-  top: -15px;
-  height: 100px;
+div {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */
 }
-</style>
-</head>
-<body>
-
-<div class="container">
-  <div class="black-box">Black box</div>
-  <div class="gray-box">Gray box</div>
-  <div class="green-box">Green box</div>
-</div>
-
-</body>
-</html>
-<html>
-<head>
-<style>
-.container {
-  position: relative;
-}
-
-.black-box {
-  position: relative;
-  border: 2px solid black;
-  height: 100px;
-  margin: 30px;
-}
-
-.gray-box {
-  position: absolute;
-  background: lightgray;
-  height: 60px;
-  width: 70%;
-  left: 50px;
-  top: 50px;
-}
-
-.green-box {
-  position: absolute;
-  background: lightgreen;
-  width: 35%;
-  left: 270px;
-  top: -15px;
-  height: 100px;
-}
-</style>
-</head>
-<body>
-
-<div class="container">
-  <div class="black-box">Black box</div>
-  <div class="gray-box">Gray box</div>
-  <div class="green-box">Green box</div>
-</div>
-
-</body>
-</html>
