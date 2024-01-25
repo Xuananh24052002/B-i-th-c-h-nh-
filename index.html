@@ -10,54 +10,64 @@
     <!--lê xuân ánh 2021050096-->
     <h1>Lê Xuân Ánh</h1>
     <p>2021050096.</p>
-    <form action="/action_page.php" id="form1">
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <input type="submit" value="Submit">
-      </form>
-      
-      <label for="lname">Last name:</label>
-      <input type="text" id="lname" name="lname" form="form1"
-      <form action="/action_page.php">
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
-        <input type="submit" value="Submit">
-        <input type="submit" formaction="/action_page2.php" value="Submit as Admin">
-      </form>
-      <form action="/action_page_binary.asp" method="post">
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <input type="submit" value="Submit">
-        <input type="submit" formenctype="multipart/form-data"
-        value="Submit as Multipart/form-data">
-      </form>
-      <form action="/action_page.php" method="get">
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
-        <input type="submit" value="Submit using GET">
-        <input type="submit" formmethod="post" value="Submit using POST">
-      </form>
-      <form action="/action_page.php">
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
-        <input type="submit" value="Submit">
-        <input type="submit" formtarget="_blank" value="Submit to a new window/tab">
-      </form>
-      <form action="/action_page.php">
-        <label for="email">Enter your email:</label>
-        <input type="email" id="email" name="email"><br><br>
-        <input type="submit" value="Submit">
-        <input type="submit" formnovalidate="formnovalidate"
-        value="Submit without validation">
-      </form>
-      <form action="/action_page.php" novalidate>
-        <label for="email">Enter your email:</label>
-        <input type="email" id="email" name="email"><br><br>
-        <input type="submit" value="Submit">
-      </form>
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+    </canvas>>
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.moveTo(0, 0);
+        ctx.lineTo(200, 100);
+        ctx.stroke();
+        </script>
+        <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.beginPath();
+            ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+            ctx.stroke();
+            </script>
+            <script>
+                var c = document.getElementById("myCanvas");
+                var ctx = c.getContext("2d");
+                ctx.font = "30px Arial";
+                ctx.fillText("Hello World", 10, 50);
+                </script>
+                <script>
+                    var c = document.getElementById("myCanvas");
+                    var ctx = c.getContext("2d");
+                    ctx.font = "30px Arial";
+                    ctx.strokeText("Hello World", 10, 50);
+                    </script>
+                    <script>
+                        var c = document.getElementById("myCanvas");
+                        var ctx = c.getContext("2d");
+                        
+                        // Create gradient
+                        var grd = ctx.createLinearGradient(0, 0, 200, 0);
+                        grd.addColorStop(0, "red");
+                        grd.addColorStop(1, "white");
+                        
+                        // Fill with gradient
+                        ctx.fillStyle = grd;
+                        ctx.fillRect(10, 10, 150, 80);
+                        </script>
+                        <script>
+                            var c = document.getElementById("myCanvas");
+                            var ctx = c.getContext("2d");
+                            
+                            // Create gradient
+                            var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
+                            grd.addColorStop(0, "red");
+                            grd.addColorStop(1, "white");
+                            
+                            // Fill with gradient
+                            ctx.fillStyle = grd;
+                            ctx.fillRect(10, 10, 150, 80);
+                            </script>
+                            <script>
+                                var c = document.getElementById("myCanvas");
+                                var ctx = c.getContext("2d");
+                                var img = document.getElementById("scream");
+                                ctx.drawImage(img, 10, 10);
+                                </script>
+                                
