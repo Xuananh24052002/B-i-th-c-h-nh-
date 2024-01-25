@@ -1,20 +1,26 @@
 /*Lê Xuân Ánh 2021050096*/
-div {
-  width: 200px;
-  height: 65px;
-  background-color: coral;
-  overflow: visible;
+img {
+  float: right;
+}
+img {
+  float: left;
+}
+img {
+  float: none;
 }
 div {
-  overflow: hidden;
+  float: left;
+  padding: 15px;
 }
-div {
-  overflow: scroll;
+
+.div1 {
+  background: red;
 }
-div {
-  overflow: auto;
+
+.div2 {
+  background: yellow;
 }
-div {
-  overflow-x: hidden; /* Hide horizontal scrollbar */
-  overflow-y: scroll; /* Add vertical scrollbar */
+
+.div3 {
+  background: green;
 }
