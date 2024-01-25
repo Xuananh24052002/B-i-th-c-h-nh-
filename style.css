@@ -1,61 +1,35 @@
 /*Lê Xuân Ánh 2021050096*/
-input {
-  width: 100%;
-}
-input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-input[type=text] {
-  border: 2px solid red;
-  border-radius: 4px;
-}
-input[type=text] {
-  background-color: #3CBC8D;
-  color: white;
-}
-input[type=text]:focus {
-  background-color: lightblue;
-}
-input[type=text] {
-  background-color: white;
-  background-image: url('searchicon.png');
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  padding-left: 40px;
-}
-input[type=text] {
-  transition: width 0.4s ease-in-out;
+body {
+  counter-reset: section;
 }
 
-input[type=text]:focus {
-  width: 100%;
+h2::before {
+  counter-increment: section;
+  content: "Section " counter(section) ": ";
 }
-textarea {
-  width: 100%;
-  height: 150px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  resize: none;
+body {
+  counter-reset: section;
 }
-select {
-  width: 100%;
-  padding: 16px 20px;
-  border: none;
-  border-radius: 4px;
-  background-color: #f1f1f1;
+
+h1 {
+  counter-reset: subsection;
 }
-input[type=button], input[type=submit], input[type=reset] {
-  background-color: #04AA6D;
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-decoration: none;
-  margin: 4px 2px;
-  cursor: pointer;
+
+h1::before {
+  counter-increment: section;
+  content: "Section " counter(section) ". ";
+}
+
+h2::before {
+  counter-increment: subsection;
+  content: counter(section) "." counter(subsection) " ";
+}
+ol {
+  counter-reset: section;
+  list-style-type: none;
+}
+
+li::before {
+  counter-increment: section;
+  content: counters(section,".") " ";
 }
