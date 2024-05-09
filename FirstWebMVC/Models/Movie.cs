@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.Data;
 
-namespace DemoMVC.Models;
+namespace FirstWebMVC.Modelss;
 
 public class Movie
 {
